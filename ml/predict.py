@@ -27,10 +27,14 @@ def predict_edible(image_path, model):
     img = preprocess_image(image_path)
     predictions = model.predict(img)
     decoded = tf.keras.applications.mobilenet_v2.decode_predictions(predictions)[0]
-    print(decoded)
     food_classes = ['apple', 'pizza']
     top_prediction = decoded[0][1] # Get class name for top result
-    print(top_prediction)
+    print(f'This image most likely depicts: {top_prediction}')
     return top_prediction in food_classes
+
+model = load_model()
+edible = predict_edible('C:/Users/mailr/code/edible-classifier/test-images/pizza.png', model)
+if edible is True:
+    print('This represents something edible!')
 
 print("Hello n00bz, we reached the end.")
