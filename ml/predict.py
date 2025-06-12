@@ -7,8 +7,9 @@
 # Date: 2025-06-10
 
 import tensorflow as tf
-from PIL import Image
 import numpy as np
+from PIL import Image
+from edible_labels import is_edible
 
 def load_model():
     # Load a pretrained deep learning model suitable for mobile applications
@@ -37,4 +38,6 @@ edible = predict_edible('C:/Users/mailr/code/edible-classifier/test-images/pizza
 if edible is True:
     print('This represents something edible!')
 
-print("Hello n00bz, we reached the end.")
+print(is_edible("chickpea"))           # True
+print(is_edible("Play-Doh"))           # False
+print(is_edible("creme fraiche"))      # True

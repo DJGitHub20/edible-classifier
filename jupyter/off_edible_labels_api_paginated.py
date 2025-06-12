@@ -1,0 +1,30 @@
+# Auto-generated from Open Food Facts API
+# Last updated: 2025-06-11 15:17:06
+
+EDIBLE_CATEGORIES = [
+    'alcoholic beverages', 'animal fats', 'artificially sweetened beverages', 'bars', 'bee products', 'beef', 'beef and its products', 'beers',
+    'berry jams', 'beverage preparations', 'beverages', 'beverages and beverages preparations', 'biscuits', 'biscuits and cakes', 'biscuits and crackers', 'bonbons',
+    'breaded products', 'breads', 'breakfast cereals', 'breakfasts', 'brioches', 'cakes', 'candies', 'canned fishes',
+    'canned foods', 'canned legumes', 'canned plant-based foods', 'canned tunas', 'canned vegetables', 'carbonated drinks', 'cereal grains', 'cereal pastas',
+    'cereals and potatoes', 'cereals and their products', 'cheeses', 'chicken and its products', 'chicken breasts', 'chickens', 'chips and fries', 'chocolate biscuits',
+    'chocolate candies', 'chocolates', 'christmas foods and drinks', 'cocoa and its products', 'coffees', 'compotes', 'condiments', 'confectioneries',
+    'cooking helpers', 'cow cheeses', 'crisps', 'culinary plants', 'cured hams', 'cured sausages', 'dairies', 'dairy desserts',
+    'dairy drinks', 'dairy substitutes', 'dark chocolates', 'desserts', 'dips', 'dried fruits', 'dried plant-based foods', 'dried products',
+    'dried products to be rehydrated', 'dry pastas', 'durum wheat pasta', 'eggs', 'extra-virgin olive oils', 'farming products', 'fats', 'fatty fishes',
+    'fermented dairy desserts', 'fermented dairy desserts with fruits', 'fermented drinks', 'fermented foods', 'fermented milk products', 'festive foods', 'fish and meat and eggs', 'fish fillets',
+    'fishes', 'fishes and their products', 'flours', 'french cheeses', 'fresh foods', 'frozen desserts', 'frozen foods', 'frozen plant-based foods',
+    'frozen vegetables', 'fruit and vegetable preserves', 'fruit juices', 'fruit yogurts', 'fruit-based beverages', 'fruits', 'fruits and vegetables based foods', 'fruits based foods',
+    'groceries', 'hams', 'hard cheeses', 'herbal teas', 'honeys', 'hot beverages', 'ice creams', 'ice creams and sorbets',
+    'italian cheeses', 'jams', 'juices and nectars', 'legume seeds', 'legumes', 'legumes and their products', 'meals', 'meals with meat',
+    'meat alternatives', 'meat analogues', 'meat preparations', 'meats', 'meats and their products', 'milk chocolates', 'milk substitutes', 'milks',
+    'mueslis', 'noodles', 'nuts', 'nuts and their products', 'oilseed purees', 'olive oils', 'olive tree products', 'pasta dishes',
+    'pastas', 'pastries', 'pickles', 'pizzas', 'pizzas pies and quiches', 'plant-based beverages', 'plant-based foods', 'plant-based foods and beverages',
+    'plant-based milk alternatives', 'plant-based pickles', 'plant-based spreads', 'pork', 'pork and its products', 'potato crisps', 'poultries', 'poultry meals',
+    'prepared meats', 'prepared salads', 'protein powders', 'pulses', 'rices', 'salmons', 'salted spreads', 'salted-snacks',
+    'salty snacks', 'sandwiches', 'sauces', 'sausages', 'seafood', 'seeds', 'smoked fishes', 'snacks',
+    'sodas', 'soups', 'spices', 'spreadable fats', 'spreads', 'spring waters', 'stuffed pastas', 'sweet pastries and pies',
+    'sweet snacks', 'sweet spreads', 'sweetened beverages', 'sweeteners', 'syrups', 'tea-based beverages', 'teas', 'tomato sauces',
+    'tomatoes and their products', 'toppings-ingredients', 'tunas', 'turkey and its products', 'turkeys', 'uncooked pressed cheeses', 'undefined', 'unsweetened beverages',
+    'vegetable fats', 'vegetable oils', 'vegetables', 'vegetables based foods', 'viennoiseries', 'vinegars', 'virgin olive oils', 'waters',
+    'white hams', 'wines', 'yogurts',
+]
